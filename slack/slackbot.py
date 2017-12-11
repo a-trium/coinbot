@@ -6,7 +6,7 @@ import logging
 import time
 from decimal import *
 from datetime import datetime, timezone
-from dateutil import tz
+# from dateutil import tz
 
 BOT_ID = os.environ.get("BOT_ID")
 SLACK_BOT_TOKEN = os.environ.get('SLACK_BOT_TOKEN')
@@ -32,8 +32,8 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.addHandler(logging.StreamHandler()) # is Test
 
-def get_datetime_kst_now():
-  return datetime.now(timezone.utc).astimezone(tz.gettz("Asia/Seoul"))
+# def get_datetime_kst_now():
+#   return datetime.now(timezone.utc).astimezone(tz.gettz("Asia/Seoul"))
 
 
 ## getting poloniex API
@@ -134,10 +134,10 @@ def handle_command(command, channel):
   if command.startswith(EXAMPLE_COMMAND):
 
     ## time
-    dt_kst_now = get_datetime_kst_now().replace(microsecond=0)
-    dt_str_kst = dt_kst_now.strftime("%Y-%m-%d %H:%M:%S")
-    timestamp = Decimal(int(dt_kst_now.timestamp()))
-    logger.info("datetime_kst:{} timestamp:{}".format(dt_kst_now, timestamp))
+    # dt_kst_now = get_datetime_kst_now().replace(microsecond=0)
+    # dt_str_kst = dt_kst_now.strftime("%Y-%m-%d %H:%M:%S")
+    # timestamp = Decimal(int(dt_kst_now.timestamp()))
+    # logger.info("datetime_kst:{} timestamp:{}".format(dt_kst_now, timestamp))
 
 
     ## price info - USD, KRW
