@@ -1,7 +1,13 @@
 
+# python 
 - python 3.X + (pyenv shell my-virtual-env-3.4.3)
+
+# bitcoin info
 - Coinone API (http://doc.coinone.co.kr/)
 - Poloniex API (https://poloniex.com/support/api/)
 - Exchange Rate (https://api.manana.kr/exchange/rate.json)
 
-
+# slack bot
+- http://jybaek.tistory.com/575
+- BOT_ID=U8CEW11KM
+- SLACK_BOT_TOKEN=xoxb-284506035667-PNwcqmA1TIptTUrI46VinRWC
