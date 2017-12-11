@@ -9,5 +9,5 @@
 
 # slack bot
 - http://jybaek.tistory.com/575
-- BOT_ID=U8CEW11KM
-- SLACK_BOT_TOKEN=xoxb-284506035667-PNwcqmA1TIptTUrI46VinRWC
+- export BOT_ID=
+- export SLACK_BOT_TOKEN=

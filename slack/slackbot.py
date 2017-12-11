@@ -8,11 +8,8 @@ from decimal import *
 from datetime import datetime, timezone
 from dateutil import tz
 
-# BOT_ID = os.environ.get("BOT_ID")
-# SLACK_BOT_TOKEN = os.environ.get('SLACK_BOT_TOKEN')
-BOT_ID='U8CEW11KM'
-SLACK_BOT_TOKEN='xoxb-284506035667-PNwcqmA1TIptTUrI46VinRWC'
-
+BOT_ID = os.environ.get("BOT_ID")
+SLACK_BOT_TOKEN = os.environ.get('SLACK_BOT_TOKEN')
 
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
