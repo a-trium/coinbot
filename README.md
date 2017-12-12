@@ -1,8 +1,11 @@
 
 # python 
+- how to run
+
+```{python}
 $ python 3.X+ (pyenv shell my-virtual-env-3.4.3)
-$ pip freeze > requirements.txt
 $ pip install -r requirements.txt
+```
 
 # bitcoin info
 - Coinone API (http://doc.coinone.co.kr/)
