@@ -150,7 +150,7 @@ def handle_command(command, channel):
     for coin in COINS:
       krw = int(price_krw[coin])
       usd = int(price_usd[coin] * usd_to_krw)
-      kimchi = (krw - usd)/(krw + usd) * 100
+      kimchi = (krw - usd)/(krw) * 100
       # print (coin, "{0:.3f}%".format((krw - usd)/usd * 100), krw, usd)
 
       logger.info(" - {} \t{}\t COINONE: {}\t, POLONIEX: {}".format(coin, "{0:.3f}%".format(kimchi), "{:,}".format(krw), "{:,}".format(usd)))
