@@ -10,6 +10,7 @@ $ pip install -r requirements.txt
 # bitcoin info
 - Coinone API (http://doc.coinone.co.kr/)
 - Poloniex API (https://poloniex.com/support/api/)
+- Bitfinex API (https://docs.bitfinex.com/v1/reference)
 - Exchange Rate (https://api.manana.kr/exchange/rate.json)
 
 # slack bot

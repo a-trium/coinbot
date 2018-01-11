@@ -62,6 +62,13 @@ def get_coin_meta_form_poloniex():
 
   return result
 
+def get_coin_meta_form_bitfinex():
+  API_TICKER_BITFINEX = "https://api.bitfinex.com/v1/pubticker/BTCUSD"
+
+  response = requests.get(API_TICKER_BITFINEX)
+  tickers = response.json()
+  price = tickers['last_price'] 
+
 ## getting coinone API
 # - http://doc.coinone.co.kr/#api-Public-Ticker
 def get_coin_meta_form_coinone():

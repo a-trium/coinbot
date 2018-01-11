@@ -120,7 +120,7 @@ def get_coin_meta_form_coinone():
 def USD_TO_KRW_exchange_rate():
   usd_to_krw_url = 'https://api.manana.kr/exchange/rate.json'
   response = requests.get(usd_to_krw_url).json()
-  return response[1]['rate']
+  return response[2]['rate']
 
 
 def handle_command(command, channel):
